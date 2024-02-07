@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Genesis Trapdoor Fix (+I Am Error, +Black Market)</name>
+    <directory>genesis trapdoor fix</directory>
+    <id>3155696768</id>
+    <description>By default, the Genesis room spawns a Heaven Door/Light Beam that takes you to the next floor. In the Womb II/Utero II/???, this takes you to the Cathedral without an option to go to Sheol. This mod spawns a trapdoor alongside the heaven door so you can choose your destination.
+
+On the last floor (dark room/chest/the void/corpse ii/home) as well as challenges, the Genesis room spawns a stairway that takes you back to the first room of the floor. Mod Config Menu will let you enable this behavior for all Genesis rooms as an alternative fix.
+
+The same options are also available for I AM ERROR and Black Market rooms.
+
+Note: The setting for the room is locked in when the room first loads.</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Rooms"/>
+    <tag id="Tweaks"/>
+</metadata>
