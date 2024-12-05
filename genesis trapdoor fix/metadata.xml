@@ -10,7 +10,7 @@ On the last floor (dark room/chest/the void/corpse ii/home) as well as challenge
 The same options are also available for I AM ERROR and Black Market rooms.
 
 Note: The setting for the room is locked in when the room first loads.</description>
-    <version>1.1</version>
+    <version>1.2</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Rooms"/>

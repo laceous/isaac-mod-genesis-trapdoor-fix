@@ -47,7 +47,7 @@ function mod:onNewRoom()
   local stageType = level:GetStageType()
   
   if (
-       (room:GetType() == RoomType.ROOM_ISAACS and roomDesc.GridIndex == GridRooms.ROOM_DEVIL_IDX) or -- genesis room
+       (room:GetType() == RoomType.ROOM_ISAACS and (roomDesc.GridIndex == GridRooms.ROOM_DEVIL_IDX or roomDesc.Data.Subtype == 99)) or -- genesis room
        room:GetType() == RoomType.ROOM_ERROR or -- error room, ROOM_ERROR_IDX/ROOM_DEBUG_IDX
        room:GetType() == RoomType.ROOM_BLACK_MARKET -- black market, ROOM_BLACK_MARKET_IDX/ROOM_DEBUG_IDX
      ) and
